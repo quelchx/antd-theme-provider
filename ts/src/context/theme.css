@@ -1,0 +1,11 @@
+@import 'antd/dist/antd.css';
+
+.bg-dark {
+  background-color: black;
+  color: white;
+}
+
+.bg-light {
+  background-color: white;
+  color: black;
+}
