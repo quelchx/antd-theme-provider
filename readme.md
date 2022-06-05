@@ -2,7 +2,15 @@
 
 ## Content is undergoing construction (better documentation, etc)
 
-This package is intended to be leveraged using `degit`. To grab the files for re-use run `npx degit quelchx/antd-theme-provider/js/src/context src/context` (to grab the javascript files) or `npx degit quelchx/antd-theme-provider/ts/src/context src/context`. Note: `src/context` is the destination path you copy and paste too.
+This package is intended to be leveraged using `degit`. To grab the files for re-use run (this will grab the javascript variant):
+
+- `npx degit quelchx/antd-theme-provider/js/src/context src/context`
+
+or to fetch the typescript variant:
+
+- `npx degit quelchx/antd-theme-provider/ts/src/context src/context`
+
+Note: `src/context` is the destination path you copy and paste too.
 
 This package gives access to use `ThemeProvider, ThemeToggle, useThemeState and useThemeDispatch`.
 
