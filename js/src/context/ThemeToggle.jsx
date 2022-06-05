@@ -1,9 +1,9 @@
 import React from "react";
-import { useThemeDispatch, useThemeState } from "../context/ThemeContext";
+import { useThemeDispatch, useThemeState } from "./ThemeContext";
 import { BsSun, BsMoon } from "react-icons/bs";
 import { Button } from "antd";
 
-const ThemeToggle = (props) => {
+export const ThemeToggle = (props) => {
   const { rounded } = props
   const { darkMode } = useThemeState();
   const dispatch = useThemeDispatch();
@@ -26,4 +26,3 @@ const ThemeToggle = (props) => {
   );
 };
 
-export default ThemeToggle;

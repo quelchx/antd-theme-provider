@@ -1,3 +1,4 @@
+import './index.css';
 import { createContext, useContext, useReducer } from "react";
 
 const initialState = {
